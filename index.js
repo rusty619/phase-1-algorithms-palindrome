@@ -1,5 +1,7 @@
 function isPalindrome(word) {
+
   // Write your algorithm here
+  return word == word.split('').reverse().join('');
 }
 
 /* 
@@ -23,3 +25,4 @@ if (require.main === module) {
 }
 
 module.exports = isPalindrome;
+
